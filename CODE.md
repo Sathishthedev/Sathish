@@ -1,25 +1,19 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import {  } from "@/components/ui/button"
+import {  } from "@/components/ui/card"
 import {
-  DropdownMenu,
-  DropdownMenuCheckboxItem,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
+  
 } from "@/components/ui/dropdown-menu"
-import { Separator } from "@/components/ui/separator"
-import { ChevronDown, CircleDot, GitFork, Plus, Star } from "lucide-react"
+import {   } from "@/components/ui/separator"
+import {   } from "lucide-react"
 
 export default function GitHubCard() {
   return (
     <Card className="w-full max-w-lg">
       <CardHeader className="grid grid-cols-[1fr_110px] items-start gap-4 space-y-0">
         <div className="space-y-1">
-          <CardTitle>vercel/next.js</CardTitle>
+          <CardTitle>  </CardTitle>
           <CardDescription>
-            The React Framework for the Web. The platform for building full-stack applications.
+          < >
           </CardDescription>
         </div>
         <div className="flex items-center gap-1 rounded-md bg-secondary text-secondary-foreground">
@@ -35,11 +29,11 @@ export default function GitHubCard() {
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" alignOffset={-5} className="w-[200px]" forceMount>
-              <DropdownMenuLabel>Suggested Lists</DropdownMenuLabel>
+              <DropdownMenuLabel> </DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuCheckboxItem checked>Web Frameworks</DropdownMenuCheckboxItem>
-              <DropdownMenuCheckboxItem>My Stack</DropdownMenuCheckboxItem>
-              <DropdownMenuCheckboxItem>Learning Resources</DropdownMenuCheckboxItem>
+              <DropdownMenuCheckboxItem checked> </DropdownMenuCheckboxItem>
+              <DropdownMenuCheckboxItem> </DropdownMenuCheckboxItem>
+              <DropdownMenuCheckboxItem> </DropdownMenuCheckboxItem>
               <DropdownMenuSeparator />
               <DropdownMenuItem>
                 <Plus className="w-4 h-4 mr-2" /> Create List
@@ -52,7 +46,7 @@ export default function GitHubCard() {
         <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
           <div className="flex items-center">
             <CircleDot className="w-3 h-3 mr-1 text-blue-500" />
-            TypeScript
+            
           </div>
           <div className="flex items-center">
             <Star className="w-3 h-3 mr-1" />
@@ -60,9 +54,9 @@ export default function GitHubCard() {
           </div>
           <div className="flex items-center">
             <GitFork className="w-3 h-3 mr-1" />
-            24.5k
+            
           </div>
-          <div>Updated Feb 2025</div>
+          <div> </div>
         </div>
       </CardContent>
     </Card>
